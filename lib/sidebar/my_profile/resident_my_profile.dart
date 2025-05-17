@@ -129,9 +129,7 @@ class _ResidentMyProfile extends State<ResidentMyProfile> {
                                         Expanded(
                                           flex: 3,
                                           child: buildReadTextField(
-                                            controller: TextEditingController(
-                                              text: resVar.getFirstName,
-                                            ),
+                                            controller: residentVariable.firstNameController,
                                             focusNode: residentVariable.firstNameFocusNode,
                                             labelText: "First Name",
                                             onTap: () {},
